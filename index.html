@@ -1,644 +1,1269 @@
-﻿<!DOCTYPE HTML>
-<html lang="en">
-   
-<!-- index.html  26 Nov 2019 03:50:59 GMT -->
-<head>
-      <!--Meta Tags-->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="" />
-      <meta name="keywords" content="" />
-      <meta name="author" content="" />
-      <!--Favicons-->
-      <link rel="shortcut icon" href="images/favicon.png">
-      <!--Page Title-->
-      <title>Fuwad Hasan - Personal Portfolio</title>
-      <!-- Bootstrap  -->
-      <link rel="stylesheet" href="css/bootstrap.css">
-      <!-- Animate.css -->
-      <link rel="stylesheet" href="css/animate.css">
-      <!-- Awesome Fonts-->
-      <link rel="stylesheet" href="css/all.min.css">
-      <!-- Flexslider  -->
-      <link rel="stylesheet" href="css/flexslider.css">
-      <!--Main Styles Css-->
-      <link rel="stylesheet" href="css/style.css">
-   </head>
-   <body>
-      
-      <!-- Preloader -->
-      <div id="preloader">
-         <div class="pre-container">
-            <div class="spinner">
-               <div class="double-bounce1"></div>
-               <div class="double-bounce2"></div>
-            </div>
-         </div>
-      </div>
-      <!-- Εnd Preloader -->
-      
-      <!-- Main menu -->
-      <nav id="main-nav">
-         <a href="#" class="js-nav-toggle nav-toggle active"><i></i></a>
-         <div class="js-fullheight table">
-            <div class="table-cell js-fullheight">
-               <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="work.html">Work</a></li>
-                  <li><a href="blog.html">Blog</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-               </ul>
-               <!-- Social -->
-               <p class="social-icon">
-                  <a href="facebook.com/anaestheticsoul"><i class="fab fa-facebook-square"></i></a>
-                  <a href="twitter.com/fuwad_7"><i class="fab fa-twitter-square"></i></a>
-                  <a href="instagram.com/fuwad_7"><i class="fab fa-instagram"></i></a>
-                  <a href="dribbble.com/fuwad7"><i class="fab fa-dribbble"></i></a>
-               </p>
-            </div>
-         </div>
-      </nav>
-      <!-- Scroll icon -->
-      <div class="scroll-icon">
-         <a href="#info" class="smoothscroll">
-            <div class="mouse"></div>
-         </a>
-         <div class="end-top"></div>
-      </div>
-      <div id="page">
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Gemas - Marketplace HTML5 Template</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-         <!-- header -->
-         <header class="header">
-            <div class="container">
-               <div class="navbar-brand">
-                  <div class="row">
-                     <div class="col-xs-6">
-                        <!-- Logo -->
-                        <h1 class="text-left"><a class="logo" href="index.html">Gwyn</a></h1>
-                     </div>
-                  </div>
-                  <!-- Nav toggle -->
-                  <a href="#" class="js-nav-toggle nav-toggle"><i></i></a>
-               </div>
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/imagetooltip.min.css">
+        <link rel="stylesheet" href="css/aos.css">
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/flaticon.css">
+        <link rel="stylesheet" href="css/meanmenu.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    <body>
+
+        <!-- preloader -->
+        <div id="preloader">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_one"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_three"></div>
+                </div>
             </div>
-         </header>
-         <!-- End Header -->
+        </div>
+        <!-- preloader-end -->
 
-         <!-- Banner section -->
-         <section id="banner" class="js-fullheight">
-            <div class="flexslider js-fullheight">
-               <!-- Social -->
-               <ul class="list-unstyled ml-5 mt-3 position-relative social-links">
-                  <li class="mb-3"><a href="facebook.com/anaestheticsoul"><i class="fab fa-facebook-f"></i></a></li>
-                  <li class="mb-3"><a href="behance.com/fuwad_7"><i class="fab fa-behance"></i></a></li>
-                  <li class="mb-3"><a href="twitter.com/fuwad_7"><i class="fab fa-twitter"></i></a></li>
-                  <li class="mb-3"><a href="dribble.com/fuwad_7"><i class="fab fa-dribbble"></i></a></li>
-                  <li class="mb-3"><a href="instagram.com/fuwad_7"><i class="fab fa-instagram"></i></a></li>
-               </ul>
-               <!-- Slider -->
-               <ul class="slides">
-                  <li style="background-image: url(images/slide_1.jpg);">
-                     <div class="overlay-gradient"></div>
-                     <div class="container">
-                        <div class="col-md-8 js-fullheight slider-text">
-                           <div class="slider-text-inner">
-                              <div class="desc">
-                                 <h2>I'm Mohammed Fuwad Hasan!</h2>
-                                 <h3>I am a
-                                    <span id="typed-slide-1"></span>
-                                    <span id="typed-strings-slide-1">
-                                    <span>Designer</span>
-                                    <span>Programmer</span>
-                                    </span>
-                                 </h3>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </li>
-                  <li style="background-image: url(images/slide_1.jpg);">
-                     <div class="overlay-gradient"></div>
-                     <div class="container">
-                        <div class="col-md-8 js-fullheight slider-text">
-                           <div class="slider-text-inner">
-                              <div class="desc">
-                                 <h2>I'm Mohammed Fuwad Hasan!</h2>
-                                 <h3>I am a
-                                    <span id="typed-slide-2"></span>
-                                    <span id="typed-strings-slide-2">
-                                    <span>Designer</span>
-                                    <span>Programmer</span>
-                                    </span>
-                                 </h3>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </li>
-               </ul>
-            </div>
-         </section>
-         <!-- End Banner Section -->
-
-         <!-- About Section -->
-         <section id="about">
-            <div class="container">
-               <div class="row">
-             
-                  <div class="col-md-12">
-                     <div class="post-entry">
-
+        <!-- header -->
+        <header>
+            <div class="header-top primary-bg">
+                <div class="container-fluid container-padding">
+                    <div class="row align-items-center">
                         <div class="col-md-6">
-                            <div class="header-page-about">
-                              <h2 class="intro-heading">About Me</h2>
-                           </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis non porta. Mauris nibh diam, pharetra eu nunc id, lobortis faucibus purus. Praesent sit amet urna id velit dignissim pellentesque.Maecenas auctor vitae felis non porta. </p>
-                           <div class="col-md-6 col-sm-4 no-padding">
-                              <ul>
-                                 <li><span>Name : </span> Mohammed Fuwad Hasan</li>
-                                 <li><span>Job : </span> Programmer</li>
-                              </ul>
-                           </div>
-                           <div class="col-md-6 col-sm-4 no-padding">
-                              <ul>
-                                 <li><span>Email : </span> <a href="gmail.com">coderfuad@gmail.com</a></li>
-                                 <li><span>Phone : </span> <a href="#"> +123 456-789-000</a></li>
-                              </ul>
-                           </div>
-                           <hr>
-                           <div class="col-md-12 no-padding mt-20">
-                              <a class="btn btn " href="#">Download CV</a>
-                              <a class="btn btn-primary" href="#">Hire Me</a> 
-                           </div>
+                            <div class="header-top-offer">
+                                <p>Exclusive Black Friday ! Offer</p>
+                                <span class="coming-time" data-countdown="2020/3/20"></span>
+                            </div>
                         </div>
-                        <br>
-                        <br>
-                        <div class="col-md-6">
-                           <div class="post-image" style="background-image: url(images/profile-pic.jpg);"></div>
-                           <div class="display-tc">
-                              <div class="desc">
-                                 <h3>My skill</h3>
-                                 <div class="skill-item">
-                                    <h5>HTML & CSS</h5><span>80%</span>
-                                    <div class="progress" data-percent="80%">
-                                       <div class="progress-bar bar-null" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                        <div class="col-md-6 d-none d-md-block">
+                            <div class="header-top-right">
+                                <ul>
+                                    <li class="search-icon"><a href="#" data-toggle="modal" data-target="#search-modal"><i class="fas fa-search"></i></a></li>
+                                    <li class="shop-cart"><a href="#"><i class="fas fa-shopping-basket"></i><span class="cart-count"></span></a>
+                                        <div class="menu-cart-widget">
+                                            <ul>
+                                                <li class="menu-cart-product-list">
+                                                    <div class="cart-product-thumb">
+                                                        <a href="#"><img src="img/product/check-out01.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cart-product-content">
+                                                        <h5><a href="#">Multi-Purpose HTML Template</a></h5>
+                                                        <span>1 x $29.00</span>
+                                                    </div>
+                                                    <div class="cart-del">
+                                                        <a href="#">X</a>
+                                                    </div>
+                                                </li>
+                                                <li class="menu-cart-product-list">
+                                                    <div class="cart-product-thumb">
+                                                        <a href="#"><img src="img/product/check-out01.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cart-product-content">
+                                                        <h5><a href="#">App Landing Sass HTML5 Template</a></h5>
+                                                        <span>1 x $29.00</span>
+                                                    </div>
+                                                    <div class="cart-del">
+                                                        <a href="#">X</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <div class="cart-price fix mb-15">
+                                                <span>Subtotal</span>
+                                                <span>$ 58.00</span>
+                                            </div>
+                                            <div class="cart-checkout-btn">
+                                                <a href="#" class="btn">check out</a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="phone-call"><a href="tel:123456789"><i class="fas fa-headphones"></i> +12 245 326 524</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-area transparent-header">
+                <div class="container-fluid container-padding">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3">
+                            <div class="logo">
+                                <a href="index.html"><img src="img/logo/logo.png" alt="Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 d-none d-lg-block">
+                            <div class="main-menu">
+                                <nav id="mobile-menu" class="d-flex align-items-center justify-content-end">
+                                    <ul>
+                                        <li class="active"><a href="index.html">Home</a></li>
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="all-product.html">Product</a>
+                                            <ul class="submenu">
+                                                <li><a href="all-product.html">Our Product</a></li>
+                                                <li><a href="product-with-sidebar.html">Product With Sidebar</a></li>
+                                                <li><a href="product-details.html">Product Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Pages</a>
+                                            <ul class="submenu">
+                                                <li><a href="vendor-profile.html">Vendor Profile</a></li>
+                                                <li><a href="forums.html">Our Forums</a></li>
+                                                <li><a href="404.html">404 Page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="blog.html">Blog</a>
+                                            <ul class="submenu">
+                                                <li><a href="blog.html">Blog Page</a></li>
+                                                <li><a href="blog-details.html">Blog Details</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                    <div class="header-btn">
+                                        <a href="#" class="btn"><i class="fas fa-user"></i> My Account</a>
                                     </div>
-                                 </div>
-                                 <div class="skill-item">
-                                    <h5>Illustrator</h5><span>75%</span>
-                                    <div class="progress" data-percent="60%">
-                                       <div class="progress-bar bar-null" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile-menu"></div>
+                        </div>
+                        <!-- Modal Search -->
+                        <div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <form>
+                                        <input type="text" placeholder="Search here...">
+                                        <button><i class="fa fa-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header-end -->
+
+
+        <!-- main-area -->
+        <main>
+
+            <!-- slider-area -->
+            <section class="slider-area slider-bg">
+                <div class="slider-shape"><img src="img/slider/slider_shape01.png" alt="img"></div>
+                <div class="slider-shape s-shape2"><img src="img/slider/slider_shape02.png" alt="img"></div>
+                <div class="slider-shape s-shape3"><img src="img/slider/slider_shape03.png" alt="img"></div>
+                <div class="container-fluid slider-container">
+                    <div class="slider-wrap">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="slider-content">
+                                    <h2 class="wow fadeInDown" data-wow-delay="0.2s">We Make Creative Market</h2>
+                                    <p class="wow fadeInUp" data-wow-delay="0.2s">Find technology or people for digital projects in public sector. Find an individual specialist. eg a developer or user
+                                    researcher.</p>
+                                    <a href="#" class="btn wow fadeInUp" data-wow-delay="0.4s">Browse Projects</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-none d-lg-block">
+                                <div class="slider-img fix text-right wow fadeInRight" data-wow-delay="0.6s">
+                                    <img src="img/slider/slider_img02.png" class="slider-img2" alt="">
+                                    <img src="img/slider/slider_img01.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-img-ellipse"><img src="img/slider/slider_img_ellipse.png" class="rotateme" alt=""></div>
+                <div class="slider-bottom-shape"><img src="img/slider/slider_bottom_shape.png" class="rotateme" alt=""></div>
+            </section>
+            <!-- slider-area-end -->
+
+            <!-- search-area -->
+            <div class="gemas-search">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="gemas-search-box">
+                                <form action="#">
+                                    <select class="custom-select">
+                                        <option selected="">All Category</option>
+                                        <option>Site Template</option>
+                                        <option>Wp Theme</option>
+                                        <option>Psd Template</option>
+                                        <option>Plugins</option>
+                                    </select>
+                                    <input type="text" placeholder="Type and Hit Enter...">
+                                    <button><i class="fas fa-search"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- search-area-end -->
+
+            <!-- new-product-area -->
+            <section class="new-product-wrap pt-115 pb-90">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="new-product-title mb-55">
+                                <h3>NEWLY ADDED PRODUCTS</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="product-thumb-wrap">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview01.jpg"
+                                            data-item-cost="16.00" data-item-category="Site Template" data-item-author="Gemas" alt="Travo - Travel Tour Booking Template"></div>
+                                            <img src="img/product/product_thumbnail01.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview02.jpg"
+                                            data-item-cost="12.00" data-item-category="Site Template" data-item-author="Gemas" alt="Boldlab - Creative Agency Template"></div>
+                                            <img src="img/product/product_thumbnail02.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview03.jpg"
+                                            data-item-cost="18.00" data-item-category="Site Template" data-item-author="Gemas" alt="Wilson – Creative Agency HTML5 Template"></div>
+                                            <img src="img/product/product_thumbnail03.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview04.jpg"
+                                            data-item-cost="10.00" data-item-category="Site Template" data-item-author="Gemas" alt="Nacho - Night Club & Event HTML5 Template"></div>
+                                            <img src="img/product/product_thumbnail04.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview05.jpg"
+                                            data-item-cost="13.00" data-item-category="Site Template" data-item-author="Gemas" alt="Travo - Travel Tour Booking Template"></div>
+                                            <img src="img/product/product_thumbnail05.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview06.jpg"
+                                            data-item-cost="19.00" data-item-category="Site Template" data-item-author="Gemas" alt="Kufa - Portfolio Agency Template"></div>
+                                            <img src="img/product/product_thumbnail06.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview05.jpg"
+                                            data-item-cost="26.00" data-item-category="Site Template" data-item-author="Gemas" alt="Troma - Business HTML Template"></div>
+                                            <img src="img/product/product_thumbnail07.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview03.jpg"
+                                            data-item-cost="24.00" data-item-category="Site Template" data-item-author="Gemas" alt="Allu - Creative Marketing Theme"></div>
+                                            <img src="img/product/product_thumbnail08.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview04.jpg"
+                                            data-item-cost="59.00" data-item-category="Site Template" data-item-author="Gemas" alt="Sara - eCommerce HTML Template"></div>
+                                            <img src="img/product/product_thumbnail09.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview01.jpg"
+                                            data-item-cost="14.00" data-item-category="Site Template" data-item-author="Gemas" alt="Rikus - Business HTML5 Template"></div>
+                                            <img src="img/product/product_thumbnail10.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview02.jpg"
+                                            data-item-cost="18.00" data-item-category="Site Template" data-item-author="Gemas" alt="SaasLand - Business & Saas Template"></div>
+                                            <img src="img/product/product_thumbnail11.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview03.jpg"
+                                            data-item-cost="11.00" data-item-category="Site Template" data-item-author="Gemas" alt="Wilson – Creative Portfolio Theme"></div>
+                                            <img src="img/product/product_thumbnail12.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview04.jpg"
+                                            data-item-cost="29.00" data-item-category="Site Template" data-item-author="Gemas" alt="Nacho - Night Club & Event HTML5 Template"></div>
+                                            <img src="img/product/product_thumbnail13.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview05.jpg"
+                                            data-item-cost="51.00" data-item-category="Site Template" data-item-author="Gemas" alt="Nova - Personal Portfolio Template"></div>
+                                            <img src="img/product/product_thumbnail14.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview06.jpg"
+                                            data-item-cost="39.00" data-item-category="Site Template" data-item-author="Gemas" alt="Massi - Creative Agency Template"></div>
+                                            <img src="img/product/product_thumbnail15.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview05.jpg"
+                                            data-item-cost="29.00" data-item-category="Site Template" data-item-author="Gemas" alt="StarTesk - Travel Tour Booking Template"></div>
+                                            <img src="img/product/product_thumbnail16.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview03.jpg"
+                                            data-item-cost="18.00" data-item-category="Site Template" data-item-author="Gemas" alt="Makplus - Digital Marketing Template"></div>
+                                            <img src="img/product/product_thumbnail17.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview04.jpg"
+                                            data-item-cost="14.00" data-item-category="Site Template" data-item-author="Gemas" alt="Suppmax - Supplement HTML5 Template"></div>
+                                            <img src="img/product/product_thumbnail18.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview01.jpg"
+                                            data-item-cost="9.00" data-item-category="Site Template" data-item-author="Gemas" alt="Travo - Travel Tour Booking Template"></div>
+                                            <img src="img/product/product_thumbnail19.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview02.jpg"
+                                            data-item-cost="16.00" data-item-category="Site Template" data-item-author="Gemas" alt="Boldlab - Creative Agency Template"></div>
+                                            <img src="img/product/product_thumbnail20.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview03.jpg"
+                                            data-item-cost="16.00" data-item-category="Site Template" data-item-author="Gemas" alt="Wilson – Creative Agency HTML5 Template"></div>
+                                            <img src="img/product/product_thumbnail21.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview04.jpg"
+                                            data-item-cost="16.00" data-item-category="Site Template" data-item-author="Gemas" alt="Nacho - Night Club & Event HTML5 Template"></div>
+                                            <img src="img/product/product_thumbnail22.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview05.jpg"
+                                            data-item-cost="16.00" data-item-category="Site Template" data-item-author="Gemas" alt="Travo - Travel Tour Booking Template"></div>
+                                            <img src="img/product/product_thumbnail23.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview06.jpg"
+                                            data-item-cost="16.00" data-item-category="Site Template" data-item-author="Gemas" alt="Boldlab - Creative Agency Template"></div>
+                                            <img src="img/product/product_thumbnail24.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview05.jpg"
+                                            data-item-cost="16.00" data-item-category="Site Template" data-item-author="Gemas" alt="Travo - Travel Tour Booking Template"></div>
+                                            <img src="img/product/product_thumbnail25.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview03.jpg"
+                                            data-item-cost="16.00" data-item-category="Site Template" data-item-author="Gemas" alt="Boldlab - Creative Agency Template"></div>
+                                            <img src="img/product/product_thumbnail26.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <div class="site-preview"  data-preview-url="img/product/product_preview04.jpg"
+                                            data-item-cost="16.00" data-item-category="Site Template" data-item-author="Gemas" alt="Travo - Travel Tour Booking Template"></div>
+                                            <img src="img/product/product_thumbnail27.png" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- new-product-area-end -->
+
+            <!-- features-area -->
+            <section class="features-area features-bg pt-120 pb-65">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="section-title white-title mb-40 wow fadeInUp" data-wow-delay="0.2s">
+                                <span>What We do</span>
+                                <h2>Lowest Pricing Available Online or Brand Themes Products Time</h2>
+                            </div>
+                            <div class="features-btn wow fadeInUp" data-wow-delay="0.4s">
+                                <a href="#" class="btn">More Features</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="features-top-content">
+                                <p>Find technology or people for digital projects in public sector. Find an individual specialist developer.</p>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="features-box mb-50">
+                                            <div class="features-icon mb-20">
+                                                <img src="img/icon/features_icon01.png" alt="">
+                                            </div>
+                                            <div class="features-box-content">
+                                                <h5>Experienced 10 Years!</h5>
+                                                <p>Find technology or people for digital projects in public sector.</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                 <div class="skill-item">
-                                       <h5>Photoshop</h5><span>75%</span>
-                                       <div class="progress" data-percent="60%">
-                                          <div class="progress-bar bar-null" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                                       </div>
-                                 </div>
-                                 <div class="skill-item">
-                                    <h5>Wordpress</h5><span>80%</span>
-                                    <div class="progress" data-percent="50%">
-                                       <div class="progress-bar bar-null" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                                    <div class="col-sm-6">
+                                        <div class="features-box mb-50">
+                                            <div class="features-icon mb-20">
+                                                <img src="img/icon/features_icon02.png" alt="">
+                                            </div>
+                                            <div class="features-box-content">
+                                                <h5>100% Response Rate</h5>
+                                                <p>Find technology or people for digital projects in public sector.</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                 </div>
-                              </div>
-                           </div>
+                                    <div class="col-sm-6">
+                                        <div class="features-box mb-50">
+                                            <div class="features-icon mb-20">
+                                                <img src="img/icon/features_icon03.png" alt="">
+                                            </div>
+                                            <div class="features-box-content">
+                                                <h5>Free Documentation</h5>
+                                                <p>Find technology or people for digital projects in public sector.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="features-box mb-50">
+                                            <div class="features-icon mb-20">
+                                                <img src="img/icon/features_icon04.png" alt="">
+                                            </div>
+                                            <div class="features-box-content">
+                                                <h5>30 Days Money Back Guaranty</h5>
+                                                <p>Find technology or people for digital projects in public sector.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-                  
-               </div>
-            </div>
-         </section>
-         <!-- End About Section -->
+                    </div>
+                </div>
+                <div class="features-shape fs-one"><img src="img/slider/slider_shape01.png" alt=""></div>
+                <div class="features-shape fs-two"><img src="img/slider/slider_shape02.png" alt=""></div>
+                <div class="features-shape fs-three"><img src="img/slider/slider_shape03.png" alt=""></div>
+                <div class="features-shape fs-four"><img src="img/slider/slider_bottom_shape.png" class="rotateme" alt=""></div>
+                <div class="features-polygon"><img src="img/images/features_polygon.png" alt="" data-parallax='{"y": -100}'></div>
+            </section>
+            <!-- features-area-end -->
 
-         <!-- Resume Section -->
-         <section id="resume" class="bg-dark bg-dots">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-8 col-md-offset-2 text-center heading">
-                     <div class="header-page">
-                        <h2>My Resume</h2>
-                        <span></span>
-                     </div>
-                     <span class="heading-meta-sub">RESUME</span>
-                     <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-12">
-                     <div class="col-md-6">
-                        <div class="item mb-40">
-                           <h4><span class="item-icon"><i class="fas fa-briefcase"></i></span>Creative Director</h4>
-                           <span class="meta">10.2017 - 09.2019</span>
-                           <h5>Freelancer</h5>
-                           <p>hasellus ipsum metus, gravida sit amet sollicitudin ac, efficitur eget risus. Curabitur commodo malesuada neque at hendrerit.</p>
+            <!-- product-area -->
+            <section class="product-area gray-bg pt-120 pb-80">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8 col-lg-9">
+                            <div class="section-title text-center mb-65">
+                                <span class="wow fadeInUp" data-wow-delay="0.2s">Let's Check Out</span>
+                                <h2 class="wow fadeInUp" data-wow-delay="0.4s">Newest Release Items</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.6s">Business plan template presented here will get you started. A standard business plan consists of a single document
+                                divided into several sections</p>
+                            </div>
                         </div>
-                        <div class="item mb-40">
-                           <h4><span class="item-icon"><i class="fas fa-briefcase"></i></span>Creative Director</h4>
-                           <span class="meta">09.2017 - 04.2019</span>
-                           <h5>Freelancer</h5>
-                           <p>hasellus ipsum metus, gravida sit amet sollicitudin ac, efficitur eget risus. Curabitur commodo malesuada neque at hendrerit.</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-xl-9 text-center">
+                            <div class="product-menu mb-60 wow fadeInUp" data-wow-delay="0.6s">
+                                <button class="active" data-filter="*">All</button>
+                                <button class="" data-filter=".cat-one">WordPress</button>
+                                <button class="" data-filter=".cat-two">Plugins</button>
+                                <button class="" data-filter=".cat-three">Site Template</button>
+                                <button class="" data-filter=".cat-four">Interface</button>
+                                <button class="" data-filter=".cat-five">Landing Page</button>
+                                <button class="" data-filter=".cat-six">Magento</button>
+                            </div>
                         </div>
-                     </div>
+                    </div>
+                    <div class="row product-active">
+                        <div class="col-lg-4 col-md-6 grid-item cat-three cat-six">
+                            <div class="product-item mb-40">
+                                <div class="product-thumb">
+                                    <a href="#"><img src="img/product/project_thumb01.jpg" alt=""></a>
+                                </div>
+                                <div class="product-item-content">
+                                    <div class="product-cat mb-10">
+                                        <ul>
+                                            <li><a href="#">Wordpress</a></li>
+                                            <li>$49</li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="#">Mobileshop Business Template</a></h4>
+                                    <p>Plus business presented here...</p>
+                                </div>
+                                <div class="product-meta">
+                                    <ul>
+                                        <li><img src="img/product/porduct_avatar01.png" alt="">By <a href="#">ThemeEX</a></li>
+                                        <li>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 grid-item cat-three cat-five">
+                            <div class="product-item mb-40">
+                                <div class="product-thumb">
+                                    <a href="#"><img src="img/product/project_thumb02.jpg" alt=""></a>
+                                </div>
+                                <div class="product-item-content">
+                                    <div class="product-cat mb-10">
+                                        <ul>
+                                            <li><a href="#">Site Template</a></li>
+                                            <li>$49</li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="#">WooCommerce Theme</a></h4>
+                                    <p>Plus business presented here...</p>
+                                </div>
+                                <div class="product-meta">
+                                    <ul>
+                                        <li><img src="img/product/porduct_avatar02.png" alt="">By <a href="#">Webstoer</a></li>
+                                        <li>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 grid-item cat-two cat-four">
+                            <div class="product-item mb-40">
+                                <div class="product-thumb">
+                                    <a href="#"><img src="img/product/project_thumb03.jpg" alt=""></a>
+                                </div>
+                                <div class="product-item-content">
+                                    <div class="product-cat mb-10">
+                                        <ul>
+                                            <li><a href="#">Magento</a></li>
+                                            <li>$49</li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="#">University HTML Template</a></h4>
+                                    <p>Plus business presented here...</p>
+                                </div>
+                                <div class="product-meta">
+                                    <ul>
+                                        <li><img src="img/product/porduct_avatar01.png" alt="">By <a href="#">ThemeEX</a></li>
+                                        <li>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 grid-item cat-one cat-five">
+                            <div class="product-item mb-40">
+                                <div class="product-thumb">
+                                    <a href="#"><img src="img/product/project_thumb04.jpg" alt=""></a>
+                                </div>
+                                <div class="product-item-content">
+                                    <div class="product-cat mb-10">
+                                        <ul>
+                                            <li><a href="#">Landing Page</a></li>
+                                            <li>$49</li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="#">Landing Page HTML Template</a></h4>
+                                    <p>Plus business presented here...</p>
+                                </div>
+                                <div class="product-meta">
+                                    <ul>
+                                        <li><img src="img/product/porduct_avatar01.png" alt="">By <a href="#">ThemeEX</a></li>
+                                        <li>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 grid-item cat-one cat-four">
+                            <div class="product-item mb-40">
+                                <div class="product-thumb">
+                                    <a href="#"><img src="img/product/project_thumb05.jpg" alt=""></a>
+                                </div>
+                                <div class="product-item-content">
+                                    <div class="product-cat mb-10">
+                                        <ul>
+                                            <li><a href="#">Site Template</a></li>
+                                            <li>$49</li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="#">Creative Agency Template</a></h4>
+                                    <p>Plus business presented here...</p>
+                                </div>
+                                <div class="product-meta">
+                                    <ul>
+                                        <li><img src="img/product/porduct_avatar02.png" alt="">By <a href="#">Webstoer</a></li>
+                                        <li>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 grid-item cat-two cat-five">
+                            <div class="product-item mb-40">
+                                <div class="product-thumb">
+                                    <a href="#"><img src="img/product/project_thumb06.jpg" alt=""></a>
+                                </div>
+                                <div class="product-item-content">
+                                    <div class="product-cat mb-10">
+                                        <ul>
+                                            <li><a href="#">PSD Template</a></li>
+                                            <li>$49</li>
+                                        </ul>
+                                    </div>
+                                    <h4><a href="#">Mobileshop Business Template</a></h4>
+                                    <p>Plus business presented here...</p>
+                                </div>
+                                <div class="product-meta">
+                                    <ul>
+                                        <li><img src="img/product/porduct_avatar01.png" alt="">By <a href="#">ThemeEX</a></li>
+                                        <li>
+                                            <div class="product-rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- product-area-end -->
 
-                     <div class="col-md-6">
-                        <div class="item mb-40">
-                           <h4><span class="item-icon"><i class="fas fa-graduation-cap"></i></span>Specialization course</h4>
-                           <span class="meta">10.2018 - 09.2019</span>
-                           <h5>Freelancer</h5>
-                           <p>Phasellus ipsum metus, gravida sit amet sollicitudin ac, efficitur eget risus. Curabitur commodo malesuada neque at hendrerit.</p>
+            <!-- pricing-area -->
+            <section class="pricing-area pt-120 pb-120">
+                <div class="container">
+                    <div class="row justify-content-between ct-pricing">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="section-title mb-50">
+                                <span>pricing strategy</span>
+                                <h2>Gemas Will Offer <br> Price for Your Business!</h2>
+                            </div>
+                            <div class="pricing-content">
+                                <p>Business plan template presented here will get you started. A standard business plan consists of a single.</p>
+                                <p>The price can be set to maximize profitability for each unit sold or from the market overall. It can be used to defend
+                                an existing market from new entrants, to increase</p>
+                                <div class="item--pricing-nav"> <span class="item--nav-monthly">Monthly</span>
+                                    <div class="item--nav"><div class="nav-bg"></div></div> <span class="item--nav-year">Yearly</span>
+                                </div>
+                                <form action="#" class="pricing-form">
+                                    <input type="radio" id="trial">
+                                    <label for="trial">or <span>Take 1 month free trial</span></label>
+                                </form>
+                            </div>
                         </div>
-                        <div class="item mb-40">
-                           <h4><span class="item-icon"><i class="fas fa-graduation-cap"></i></span>Specialization course</h4>
-                           <span class="meta">09.2018 - 04.2019</span>
-                           <h5>Freelancer</h5>
-                           <p>Phasellus ipsum metus, gravida sit amet sollicitudin ac, efficitur eget risus. Curabitur commodo malesuada neque at hendrerit.</p>
+                        <div class="col-lg-6 position-relative">
+                            <div class="ct-pricing-body ct-pricing-monthly">
+                                <div class="ct-pricing-item item--first">
+                                    <div class="item-popular">limited offer</div>
+                                    <div class="ct-pricing-meta">
+                                        <div class="ct-pricing-meta-inner">
+                                            <h3 class="ct-pricing-title">Standard</h3>
+                                            <div class="ct-pricing-price">$17</div>
+                                        </div>
+                                    </div>
+                                    <ul class="item--feature">
+                                        <li><i class="fas fa-check"></i>Up to 5 Web Pages</li>
+                                        <li><i class="fas fa-check"></i>Single two theme optimization</li>
+                                        <li><i class="fas fa-check"></i>1 year support & updates</li>
+                                        <li><i class="fas fa-check"></i>20% Future Purchases</li>
+                                        <li><i class="fas fa-check"></i>5 WordPress Theme</li>
+                                    </ul>
+                                    <div class="ct-pricing-button"> <a class="btn btn-default" href="#">Purchase Now</a></div>
+                                </div>
+                                <div class="ct-pricing-item item--last">
+                                    <div class="ct-pricing-meta">
+                                        <div class="ct-pricing-meta-inner">
+                                            <h3 class="ct-pricing-title">Standard</h3>
+                                            <div class="ct-pricing-price">$59</div>
+                                        </div>
+                                    </div>
+                                    <ul class="item--feature">
+                                        <li><i class="fas fa-check"></i>Up to 5 Web Pages</li>
+                                        <li><i class="fas fa-check"></i>Single two theme optimization</li>
+                                        <li><i class="fas fa-check"></i>1 year support & updates</li>
+                                        <li><i class="fas fa-check"></i>20% Future Purchases</li>
+                                        <li><i class="fas fa-check"></i>5 WordPress Theme</li>
+                                    </ul>
+                                    <div class="ct-pricing-button"> <a class="btn btn-default" href="#">Purchase Now</a></div>
+                                </div>
+                            </div>
+                            <div class="ct-pricing-body ct-pricing-year">
+                                <div class="ct-pricing-item item--first">
+                                    <div class="item-popular">limited offer</div>
+                                    <div class="ct-pricing-meta">
+                                        <div class="ct-pricing-meta-inner">
+                                            <h3 class="ct-pricing-title">Standard</h3>
+                                            <div class="ct-pricing-price">$99</div>
+                                        </div>
+                                    </div>
+                                    <ul class="item--feature">
+                                        <li><i class="fas fa-check"></i>Up to 5 Web Pages</li>
+                                        <li><i class="fas fa-check"></i>Single two theme optimization</li>
+                                        <li><i class="fas fa-check"></i>1 year support & updates</li>
+                                        <li><i class="fas fa-check"></i>20% Future Purchases</li>
+                                        <li><i class="fas fa-check"></i>5 WordPress Theme</li>
+                                    </ul>
+                                    <div class="ct-pricing-button"> <a class="btn btn-default" href="#">Purchase Now</a></div>
+                                </div>
+                                <div class="ct-pricing-item item--last">
+                                    <div class="ct-pricing-meta">
+                                        <div class="ct-pricing-meta-inner">
+                                            <h3 class="ct-pricing-title">Standard</h3>
+                                            <div class="ct-pricing-price">$199</div>
+                                        </div>
+                                    </div>
+                                    <ul class="item--feature">
+                                        <li><i class="fas fa-check"></i>Up to 5 Web Pages</li>
+                                        <li><i class="fas fa-check"></i>Single two theme optimization</li>
+                                        <li><i class="fas fa-check"></i>1 year support & updates</li>
+                                        <li><i class="fas fa-check"></i>20% Future Purchases</li>
+                                        <li><i class="fas fa-check"></i>5 WordPress Theme</li>
+                                    </ul>
+                                    <div class="ct-pricing-button"> <a class="btn btn-default" href="#">Purchase Now</a></div>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- End Resume Section -->
+                    </div>
+                </div>
+            </section>
+            <!-- pricing-area-end -->
 
-         <!-- Services Section -->
-         <section id="services" class="bg-light">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-8 col-md-offset-2 text-center heading">
-                     <div class="header-page">
-                        <h2>My Services</h2>
-                        <span></span>
-                     </div>
-                     <span class="heading-meta-sub">SERVICES</span>
-                     <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="service">
-                        <div class="icon">
-                           <i class="fab fa-codepen"></i>
+            <!-- fact-area -->
+            <section class="fact-area fact-bg pt-120 pb-90">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-ms-4 col-sm-6">
+                            <div class="fact-box mb-30 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="fact-icon mb-25">
+                                    <img src="img/icon/fact_icon01.png" alt="">
+                                </div>
+                                <div class="fact-box-content">
+                                    <h4 class="count">245</h4>
+                                    <span>Amazing Feature Item</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="box-num">
-                           <h2>01</h2>
+                        <div class="col-lg-3 col-ms-4 col-sm-6">
+                            <div class="fact-box mb-30 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="fact-icon mb-25">
+                                    <img src="img/icon/fact_icon02.png" alt="">
+                                </div>
+                                <div class="fact-box-content">
+                                    <h4 class="count">348</h4>
+                                    <span>Amazing Feature Item</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="text">
-                           <h3>Branding</h3>
-                           <p>Phasellus eget neque et lectus pharetra accumsan. </p>
+                        <div class="col-lg-3 col-ms-4 col-sm-6">
+                            <div class="fact-box mb-30 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="fact-icon mb-25">
+                                    <img src="img/icon/fact_icon03.png" alt="">
+                                </div>
+                                <div class="fact-box-content">
+                                    <h4 class="count">55</h4>
+                                    <span>Amazing Feature Item</span>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="service">
-                        <div class="icon">
-                           <i class="fas fa-paint-brush"></i>
+                        <div class="col-lg-3 col-ms-4 col-sm-6">
+                            <div class="fact-box mb-30 wow fadeInUp" data-wow-delay="0.8s">
+                                <div class="fact-icon mb-25">
+                                    <img src="img/icon/fact_icon04.png" alt="">
+                                </div>
+                                <div class="fact-box-content">
+                                    <h4 class="count">457</h4>
+                                    <span>Amazing Feature Item</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="box-num">
-                           <h2>02</h2>
-                        </div>
-                        <div class="text">
-                           <h3>Web Design</h3>
-                           <p>Phasellus eget neque et lectus pharetra accumsan. </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="service">
-                        <div class="icon">
-                           <i class="fas fa-chart-line"></i>
-                        </div>
-                        <div class="box-num">
-                           <h2>03</h2>
-                        </div>
-                        <div class="text">
-                           <h3>Search optimization</h3>
-                           <p>Phasellus eget neque et lectus pharetra accumsan.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="service">
-                        <div class="icon">
-                           <i class="fas fa-laptop-code"></i>
-                        </div>
-                        <div class="box-num">
-                           <h2>04</h2>
-                        </div>
-                        <div class="text">
-                           <h3>Web Development</h3>
-                           <p>Phasellus eget neque et lectus pharetra accumsan. </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="service">
-                        <div class="icon">
-                           <i class="fas fa-desktop"></i>
-                        </div>
-                        <div class="box-num">
-                           <h2>05</h2>
-                        </div>
-                        <div class="text">
-                           <h3>User Interface</h3>
-                           <p>Phasellus eget neque et lectus pharetra accumsan. </p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="service">
-                        <div class="icon">
-                           <i class="far fa-life-ring"></i>
-                        </div>
-                        <div class="box-num">
-                           <h2>06</h2>
-                        </div>
-                        <div class="text">
-                           <h3>Help &amp; Support</h3>
-                           <p>Phasellus eget neque et lectus pharetra accumsan. </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- End Resume Section -->
-         
-         <!-- Counters Section -->
-         <div class="counters" id="counter-animate">
-            <div class="narrow-content">
-               <div class="container">
-               <div class="row" >
-                  <div class="col-md-12"> 
-                     <div class="col-md-3 text-center">
-                        <span class="counter js-counter" data-from="0" data-to="7520" data-speed="5000" data-refresh-interval="50"></span>
-                        <span class="counter-label">Project</span>
-                     </div>
-                     <div class="col-md-3 text-center">
-                        <span class="counter js-counter" data-from="0" data-to="5450" data-speed="5000" data-refresh-interval="50"></span>
-                        <span class="counter-label">Clients</span>
-                     </div>
-                     <div class="col-md-3 text-center">
-                        <span class="counter js-counter" data-from="0" data-to="6876" data-speed="5000" data-refresh-interval="50"></span>
-                        <span class="counter-label">Happy Client</span>
-                     </div>
-                     <div class="col-md-3 text-center">
-                        <span class="counter js-counter" data-from="0" data-to="456" data-speed="5000" data-refresh-interval="50"></span>
-                        <span class="counter-label">Awards </span>
-                     </div>
-                  </div>
-               </div>
-               </div>
-            </div>
-         </div>
-         <!-- End Counters Section -->
+                    </div>
+                </div>
+            </section>
+            <!-- fact-area-end -->
 
-         <!-- Works Section -->
-         <section id="work" class="bg-light">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-8 col-md-offset-2 text-center heading">
-                     <div class="header-page">
-                        <h2>My Projects</h2>
-                        <span></span>
-                     </div>
-                     <span class="heading-meta-sub">PORTFOLIO</span>
-                     <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-lg-12 px-25 text-center">
-                     <ul class="work-filter">
-                        <li class="filter all active" data-filter="*">All</li>
-                        <li class="filter" data-filter=".branding">Branding</li>
-                        <li class="filter" data-filter=".web">Web</li>
-                        <li class="filter" data-filter=".mobile">Mobile</li>
-                        <li class="filter" data-filter=".photo">Photography</li>
-                     </ul>
-                  </div>
-                  <div class="col-lg-12">
-                     <div class="work-gallery"> 
-                        <div class="col-lg-4 col-md-6 col-sm-12 all photo mobile">
-                           <div class="work">
-                              <img class="img-fluid" src="images/work-1.jpg" alt="">
-                              <div class="desc">
-                                 <div class="con">
-                                    <h3><a href="work-single.html">Work 1</a></h3>
-                                    <span>Branding, Photography</span>
-                                 </div>
-                              </div>
-                           </div>
+            <!-- services-area -->
+            <section class="services-area gray-bg pt-120 pb-90">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8 col-lg-9">
+                            <div class="section-title text-center mb-65">
+                                <span>exclusive service</span>
+                                <h2>Why Chose Us</h2>
+                                <p>Business plan template presented here will get you started. A standard business plan consists of a single
+                                    document divided into several sections</p>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 all web">
-                           <div class="work">
-                              <img class="img-fluid" src="images/work-2.jpg" alt="">
-                              <div class="desc">
-                                 <div class="con">
-                                    <h3><a href="work-single.html">Work 2</a></h3>
-                                    <span>Mobile, Web, Branding</span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>          
-                        <div class="col-lg-4 col-md-6 col-sm-12 all branding web">
-                           <div class="work">
-                              <img class="img-fluid" src="images/work-3.jpg" alt="">
-                              <div class="desc">
-                                 <div class="con">
-                                    <h3><a href="work-single.html">Work 3</a></h3>
-                                    <span>Mobile, Web</span>
-                                 </div>
-                              </div>
-                           </div>
+                    </div>
+                    <div class="services-wrap">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="services-box mb-30 wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="services-box-head">
+                                        <img src="img/icon/services_icon01.png" alt="">
+                                        <h4>Experienced Over Place <br> 10 The Years!</h4>
+                                    </div>
+                                    <div class="services-box-content">
+                                        <p>Annual Performance Statistics that Report provides detailed statistical information our performance stakeh.</p>
+                                    </div>
+                                    <div class="services-overlay-icon"><img src="img/icon/services_icon011.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="services-box mb-30 wow fadeInUp" data-wow-delay="0.4s">
+                                    <div class="services-box-head">
+                                        <img src="img/icon/services_icon02.png" alt="">
+                                        <h4>Secure Transaction Custo <br> Traffic generation</h4>
+                                    </div>
+                                    <div class="services-box-content">
+                                        <p>Annual Performance Statistics that Report provides detailed statistical information our performance stakeh.</p>
+                                    </div>
+                                    <div class="services-overlay-icon"><img src="img/icon/services_icon012.png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="services-box mb-30 wow fadeInUp" data-wow-delay="0.6s">
+                                    <div class="services-box-head">
+                                        <img src="img/icon/services_icon03.png" alt="">
+                                        <h4>Within Banking Product <br> Banking Center</h4>
+                                    </div>
+                                    <div class="services-box-content">
+                                        <p>Annual Performance Statistics that Report provides detailed statistical information our performance stakeh.</p>
+                                    </div>
+                                    <div class="services-overlay-icon"><img src="img/icon/services_icon013.png" alt=""></div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 all web branding">
-                           <div class="work">
-                              <img class="img-fluid" src="images/work-4.jpg" alt="">
-                              <div class="desc">
-                                 <div class="con">
-                                    <h3><a href="work-single.html">Work 4</a></h3>
-                                    <span>Web, Branding</span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>            
-                        <div class="col-lg-4 col-md-6 col-sm-12 all mobile">
-                           <div class="work">
-                              <img class="img-fluid" src="images/work-5.jpg" alt="">
-                              <div class="desc">
-                                 <div class="con">
-                                    <h3><a href="work-single.html">Work 5</a></h3>
-                                    <span>Mobile, Photography</span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12 all branding">
-                           <div class="work">
-                              <img class="img-fluid" src="images/work-6.jpg" alt="">
-                              <div class="desc">
-                                 <div class="con">
-                                    <h3><a href="work-single.html">Work 6</a></h3>
-                                    <span>Web, Branding</span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div> 
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- End Works Section -->
+                    </div>
+                </div>
+            </section>
+            <!-- services-area-end -->
 
-         <!-- Blog Section -->
-         <section id="blog" class="bg-section bg-dark">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-8 col-md-offset-2 text-center heading">
-                     <div class="header-page">
-                        <h2>Blog</h2>
-                        <span></span>
-                     </div>
-                     <span class="heading-meta-sub">BLOG</span>
-                     <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-4">
-                     <div class="blog">
-                        <a href="blog.html"><img class="img-responsive" src="images/img-1.jpg" alt=""></a>
-                        <div class="blog-text">
-                           <span class="posted_on">21 Nov 2019</span>
-                           <h3><a href="blog.html">ALIQUAM IN PELLENTESQUE LIBERO.</a></h3>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis non.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="blog">
-                        <a href="blog.html"><img class="img-responsive" src="images/img-2.jpg" alt=""></a>
-                        <div class="blog-text">
-                           <span class="posted_on">21 Nov 2019</span>
-                           <h3><a href="blog.html">ALIQUAM IN PELLENTESQUE LIBERO.</a></h3>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis non.</p>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-4">
-                     <div class="blog">
-                        <a href="blog.html"><img class="img-responsive" src="images/img-3.jpg" alt=""></a>
-                        <div class="blog-text">
-                           <span class="posted_on">21 Nov 2019</span>
-                           <h3><a href="blog.html">ALIQUAM IN PELLENTESQUE LIBERO.</a></h3>
-                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor vitae felis non.</p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- End Blog Section -->
+            <div class="area-wrapper black-bg position-relative">
 
-         <!-- Contact Section -->
-         <section id="contact" class="bg-light">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-8 col-md-offset-2 text-center heading">
-                     <div class="header-page">
-                        <h2>Get In Touch</h2>
-                        <span></span>
-                     </div>
-                     <span class="heading-meta-sub">CONTACT</span>
-                     <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-md-3 col-md-push-1">
-                     <ul class="contact-info">
-                        <li><i class="fas fa-map-marked-alt"></i>123 West 21th Street, New York NY</li>
-                        <li><i class="fas fa-phone-alt"></i>+123 456-789-000</li>
-                        <li><i class="fas fa-envelope"></i><a href="#">coderfuad@gmail.com</a></li>
-                        <li><i class="fas fa-globe"></i><a href="#">www.yoursite.com</a></li>
-                     </ul>
-                  </div>
-                  <div class="col-md-7 col-md-push-1">
-                     <div class="row">
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Name">
-                           </div>
+                <!-- brand-area -->
+                <div class="brand-area pt-120">
+                    <div class="container">
+                        <div class="brand-wrap">
+                            <div class="row no-gutters justify-content-center">
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo01.png" alt="">
+                                </div>
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo02.png" alt="">
+                                </div>
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo03.png" alt="">
+                                </div>
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo04.png" alt="">
+                                </div>
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo05.png" alt="">
+                                </div>
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo06.png" alt="">
+                                </div>
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo07.png" alt="">
+                                </div>
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo08.png" alt="">
+                                </div>
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo09.png" alt="">
+                                </div>
+                                <div class="brand-item">
+                                    <img src="img/brand/brand_logo10.png" alt="">
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Email">
-                           </div>
-                        </div>
-                        <div class="col-md-12">
-                           <div class="form-group">
-                              <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Message"></textarea>
-                           </div>
-                        </div>
-                        <div class="col-md-12">
-                           <div class="form-group text-right">
-                              <input type="submit" value="Send Message" class="btn btn-primary">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- End Contact Section -->
+                    </div>
+                </div>
+                <!-- brand-area-end -->
 
-         <!-- Footer -->
-         <footer>
-            <div id="footer">
-               <div class="container">
-                  <div class="row copy-right">
-                     <div class="col-md-6 col-md-offset-3 text-center">
-                        <!-- Footer logo -->
-                        <h2><a class="footer-logo" href="index.html">Gwyn</a></h2>
-                        <!-- Social -->
-                        <p class="social-icon">
-                           <a href="facebook.com/anaestheticsoul"><i class="fab fa-facebook-square"></i></a>
-                           <a href="twitter.com/fuwad_7"><i class="fab fa-twitter-square"></i></a>
-                           <a href="instagram.com/fuwad_7"><i class="fab fa-instagram"></i></a>
-                           <a href="dribble.com/fuwad_7"><i class="fab fa-dribbble"></i></a>
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <!-- Back to top button -->
-            <a id="back-to-top" href="#"><i class="fas fa-chevron-up"></i></a>
-         </footer>
-         <!-- End Footer -->
-      </div>
-      <!-- jQuery -->
-      <script src="js/jquery.min.js"></script>
-      <!-- jQuery Easing -->
-      <script src="js/jquery.easing.1.3.js"></script>
-      <!-- Bootstrap -->
-      <script src="js/bootstrap.min.js"></script>
-      <!-- Waypoints -->
-      <script src="js/jquery.waypoints.min.js"></script>
-      <!-- Counters -->
-      <script src="js/jquery.countTo.js"></script>
-      <!-- Flexslider -->
-      <script src="js/jquery.flexslider-min.js"></script>
-      <!-- isotope js -->
-      <script src="js/isotope.pkgd.min.js"></script>
-      <!-- isotope image loader js -->
-      <script src="js/imagesloaded.pkgd.min.js"></script>
-      <!-- Typed -->
-      <script src="js/typed.min.js"></script>
-      <!-- Custom JS -->
-      <script src="js/custom.js"></script>
-   </body>
+                <!-- testimonial-area -->
+                <section class="testimonial-area pt-115 pb-140">
+                    <div class="container">
+                        <div class="testi-wrap">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="section-title">
+                                        <h2>Feedback From our clients.</h2>
+                                    </div>
+                                    <div class="testi-quote">
+                                        <img src="img/icon/testi_quote01.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-7">
+                                    <div class="testimonial-active">
+                                        <div class="testimonial-item">
+                                            <div class="testi-content">
+                                                <p>“In promotion and of advertisin testimonial or show consists of a person's written or spoken statement that extolling
+                                                the virtue of a product. The term - Testimonial"</p>
+                                            </div>
+                                            <div class="testi-avatar">
+                                                <div class="testi-avatar-img">
+                                                    <img src="img/images/testi_avatar.png" alt="">
+                                                </div>
+                                                <div class="testi-avatar-info">
+                                                    <span>- Alexander Graham Bell, CEO ot Google</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-item">
+                                            <div class="testi-content">
+                                                <p>“In promotion and of advertisin testimonial or show consists of a person's written or spoken statement that extolling
+                                                the virtue of a product. The term - Testimonial"</p>
+                                            </div>
+                                            <div class="testi-avatar">
+                                                <div class="testi-avatar-img">
+                                                    <img src="img/images/testi_avatar.png" alt="">
+                                                </div>
+                                                <div class="testi-avatar-info">
+                                                    <span>- Alexander Graham Bell, CEO ot Google</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-item">
+                                            <div class="testi-content">
+                                                <p>“In promotion and of advertisin testimonial or show consists of a person's written or spoken statement that extolling
+                                                the virtue of a product. The term - Testimonial"</p>
+                                            </div>
+                                            <div class="testi-avatar">
+                                                <div class="testi-avatar-img">
+                                                    <img src="img/images/testi_avatar.png" alt="">
+                                                </div>
+                                                <div class="testi-avatar-info">
+                                                    <span>- Alexander Graham Bell, CEO ot Google</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-small-quote"><img src="img/icon/testi_quote02.png" alt=""></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- testimonial-area-end -->
 
-<!-- index.html  26 Nov 2019 03:52:23 GMT -->
+                <div class="testi-bg-shape"><img src="img/images/testi_shape.png" class="rotateme" alt=""></div>
+            </div>
+
+            <!-- blog-area -->
+            <section class="blog-area gray-bg pt-120 pb-90">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="section-title mb-50">
+                                <span>latest news & blog</span>
+                                <h2>Recent News.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-post mb-30 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="blog-thumb">
+                                    <a href="#"><img src="img/blog/blog_thumb01.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <ul>
+                                            <li><i class="far fa-clock"></i>July 4, 2020 in Wordpress</li>
+                                            <li><i class="fas fa-comment"></i>03</li>
+                                            <li><i class="fas fa-heart"></i>26</li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="#">Organizing Website Content</a></h3>
+                                    <p>Annual Performance Statistics that Report provides detailed statistical information our performance stakeh.</p>
+                                    <div class="blog-post-avatar">
+                                        <div class="blog-avatar-img">
+                                            <img src="img/blog/blog_avatar_img.png" alt="">
+                                        </div>
+                                        <div class="blog-avatar-info">
+                                            <a href="#">- Alexander Graham</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-post mb-30 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="blog-thumb">
+                                    <a href="#"><img src="img/blog/blog_thumb02.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <ul>
+                                            <li><i class="far fa-clock"></i>July 4, 2020 in Wordpress</li>
+                                            <li><i class="fas fa-comment"></i>03</li>
+                                            <li><i class="fas fa-heart"></i>26</li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="#">Organizing Website Content</a></h3>
+                                    <p>Annual Performance Statistics that Report provides detailed statistical information our performance stakeh.</p>
+                                    <div class="blog-post-avatar">
+                                        <div class="blog-avatar-img">
+                                            <img src="img/blog/blog_avatar_img.png" alt="">
+                                        </div>
+                                        <div class="blog-avatar-info">
+                                            <a href="#">- Alexander Graham</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="blog-post mb-30 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="blog-thumb">
+                                    <a href="#"><img src="img/blog/blog_thumb03.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-content">
+                                    <div class="blog-meta">
+                                        <ul>
+                                            <li><i class="far fa-clock"></i>July 4, 2020 in Wordpress</li>
+                                            <li><i class="fas fa-comment"></i>03</li>
+                                            <li><i class="fas fa-heart"></i>26</li>
+                                        </ul>
+                                    </div>
+                                    <h3><a href="#">Organizing Website Content</a></h3>
+                                    <p>Annual Performance Statistics that Report provides detailed statistical information our performance stakeh.</p>
+                                    <div class="blog-post-avatar">
+                                        <div class="blog-avatar-img">
+                                            <img src="img/blog/blog_avatar_img.png" alt="">
+                                        </div>
+                                        <div class="blog-avatar-info">
+                                            <a href="#">- Alexander Graham</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- blog-area-end -->
+
+        </main>
+        <!-- main-area-end -->
+
+        <!-- footer-area -->
+        <footer>
+            <div class="footer-top footer-bg">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="footer-widget mb-50">
+                                <div class="footer-logo mb-35">
+                                    <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>Gemas marketplace the relase etras thats sheets continig passag.</p>
+                                    <div class="footer-contact">
+                                        <ul>
+                                            <li><i class="fas fa-map-marker-alt"></i> <span>Address : </span>PO Box W75 Street lan West new queens</li>
+                                            <li><i class="fas fa-headphones"></i> <span>Phone : </span>+24 1245 654 235</li>
+                                            <li><i class="fas fa-envelope-open"></i><span>Email : </span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="deb7b0b8b19ebba6bbb3aeb2bbf0bdb1b3">[email&#160;protected]</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-sm-6">
+                            <div class="footer-widget mb-50">
+                                <div class="fw-title mb-35">
+                                    <h5>Products</h5>
+                                </div>
+                                <div class="fw-link">
+                                    <ul>
+                                        <li><a href="#">Graphics (26)</a></li>
+                                        <li><a href="#">Backgrounds (11)</a></li>
+                                        <li><a href="#">Fonts (9)</a></li>
+                                        <li><a href="#">Music (3)</a></li>
+                                        <li><a href="#">Photography (3)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-sm-6">
+                            <div class="footer-widget mb-50">
+                                <div class="fw-title mb-35">
+                                    <h5>Need Help?</h5>
+                                </div>
+                                <div class="fw-link">
+                                    <ul>
+                                        <li><a href="#">Terms & Conditions</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Refund Policy</a></li>
+                                        <li><a href="#">Affiliate</a></li>
+                                        <li><a href="#">FAQUse Cases</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="footer-widget mb-50">
+                                <div class="fw-title mb-35">
+                                    <h5>Follow us</h5>
+                                </div>
+                                <div class="footer-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-widget mb-50">
+                                <div class="fw-title mb-35">
+                                    <h5>newsletter sign up</h5>
+                                </div>
+                                <div class="footer-newsletter">
+                                    <form action="#">
+                                        <input type="text" placeholder="Enter your email">
+                                        <button><i class="fas fa-rocket"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-wrap">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="copyright-text">
+                                <p>Copyright © 2020 <a href="#">Gemas</a> All Rights Reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 d-none d-md-block">
+                            <div class="payment-method-img text-right">
+                                <img src="img/images/card_img.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer-area-end -->
+
+
+
+		<!-- JS here -->
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/parallax-scroll.js"></script>
+        <script src="js/imagetooltip.min.js"></script>
+        <script src="js/jquery.countdown.min.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
